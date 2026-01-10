@@ -1,7 +1,7 @@
 % Coregister T2-FLAIR to dMRI data
 
 % Connect to data
-[ps, opt] = step0_define_paths();
+ps = step0_define_paths();
 
 % Set options
 opt = mdm_opt;
