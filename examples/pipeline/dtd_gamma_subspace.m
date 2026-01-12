@@ -167,8 +167,8 @@ fit2data_s = dtd_gamma_1d_fit2data(m, xps);
 
 plot(fit2data_s)
 
-%%
-dtd_gamma_pipe(s,ps.op,opt)
+%% this take too much time
+% dtd_gamma_pipe(s,ps.op,opt)
 
 %% 1. define real m
 disp(m);
